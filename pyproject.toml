@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "abetterui"
+version = "0.1.0"
+description = ""
+authors = ["Joey Dreijer <jdreijer@d3vzer0.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.24.1"
+azure-identity = "^1.13.0"
+azure-mgmt-resource = "^23.0.1"
+azure-mgmt-resourcegraph = "^8.0.0"
+msrestazure = "^0.6.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
